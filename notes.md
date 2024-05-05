@@ -1,17 +1,12 @@
-[ ]C
-[x]Python
-[ ]Assembly
-[ ]Go
-[ ]BrainFuck
-[ ]Rust
-[ ]Kotlin
-[ ]Java
+- [x] C
+- [x] Python
+- [ ] Assembly
+- [ ] Go
+- [ ] BrainFuck
+- [ ] Rust
+- [ ] Kotlin
+- [ ] Java
 
-
-
-
-notes on C
- *Doesnt work on large matrices
- *Slow as fuck?!
-
-
+### Notes on C:
+- Does not work well with large matrices.
+- Performance issues (slow execution).
