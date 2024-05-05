@@ -13,3 +13,15 @@
 ### Notes on C:
 - Does not work well with large matrices.
 - Performance issues (slow as fuck!).
+
+
+```c
+for (int r = 0; r < M1row; r++) {
+  for (int c = 0; c < M2column; c++) {
+    R[r][c] = 0;
+    for (int k = 0; k < M1column; k++) {
+      R[r][c] += M1[r][k] * M2[k][c];
+    }
+  }
+}
+
