@@ -1,7 +1,7 @@
 import numpy as np
 import time
 
-N = 4096
+N = 4090
 
 if __name__ == "__main__":
     A = np.random.randn(N, N).astype(np.float32)
@@ -19,4 +19,4 @@ if __name__ == "__main__":
     s=et-st
 
     print(f"{flop/s * 1e-9:.2f} GFLOPS")
-    
+    print(C)
