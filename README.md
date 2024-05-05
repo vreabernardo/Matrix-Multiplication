@@ -18,11 +18,12 @@
 - Test flops
 
 ```c
+// C = A * B
 for (int r = 0; r < N; r++) {
   for (int c = 0; c < N; c++) {
-    R[r][c] = 0;
+    C[r][c] = 0;
     for (int k = 0; k < N; k++) {
-      R[r][c] += M1[r][k] * M2[k][c];
+      C[r][c] += A[r][k] * B[k][c];
     }
   }
 }
