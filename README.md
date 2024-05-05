@@ -6,7 +6,7 @@
 - [ ] Go
 - [ ] BrainFuck
 - [ ] Rust
-- [ ] Kotlin
+- [x] Kotlin
 - [ ] Java
 - [ ] ...
 
@@ -14,6 +14,8 @@
 - Does not work well with large matrices.
 - Performance issues (slow as fuck!).
 
+### Notes on kotlin:
+- Test flops
 
 ```c
 for (int r = 0; r < M1row; r++) {
