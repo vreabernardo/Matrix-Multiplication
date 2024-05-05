@@ -18,10 +18,10 @@
 - Test flops
 
 ```c
-for (int r = 0; r < M1row; r++) {
-  for (int c = 0; c < M2column; c++) {
+for (int r = 0; r < N; r++) {
+  for (int c = 0; c < N; c++) {
     R[r][c] = 0;
-    for (int k = 0; k < M1column; k++) {
+    for (int k = 0; k < N; k++) {
       R[r][c] += M1[r][k] * M2[k][c];
     }
   }
