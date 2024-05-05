@@ -1,3 +1,12 @@
+; for (int r = 0; r < M1 row count; r++) {
+;   for (int c = 0; c < M2 column count; c++) {
+;     R[r][c] = 0;
+;     for (int k = 0; k < M1 column count; k++) {
+;       R[r][c] += M1[r][k] * M2[k][c];
+;     }
+;   }
+; }
+
 section .data
     hello_message db 'Hello, World!',0xA  
     hello_length equ $ - hello_message    
