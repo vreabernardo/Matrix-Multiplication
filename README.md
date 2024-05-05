@@ -12,4 +12,4 @@
 
 ### Notes on C:
 - Does not work well with large matrices.
-- Performance issues (slow execution).
+- Performance issues (slow as fuck!).
